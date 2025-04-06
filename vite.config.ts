@@ -166,6 +166,9 @@ export default defineConfig((config) => {
         },
       },
     },
+    server: {
+      allowedHosts: ['https://bolty.mssaba.com']
+    }
   };
 });
 
